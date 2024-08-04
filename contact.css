@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    font-family: "Epilogue", sans-serif;
+    
+}
+
+/* contact */
+
+.j {
+    width: 100%;
+    height: 80px;
+    padding: 25px 30px 25px 50px;
+    border-bottom: #1575d61a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.j1 {
+    display: block;
+    height: 28px;
+    top: 26px;
+    bottom: 26px;
+}
+
+.k5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #1576D6;
+    padding-right: 60px;
+    text-decoration: none;
+}
+
+.k1,
+.k2,
+.k3,
+.k4 {
+    /* font-family: Epilogue; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #2D2D2D;
+    padding-right: 60px;
+    text-decoration: none;
+}
+.icon{
+    display: none;
+    width: 25px;
+height: 23px;
+top: 28px;
+left: 300px;
+gap: 0px;
+opacity: 0px;
+
+}
+.mm{
+    width: 1,080px;
+height: 495px;
+top: 130px;
+left: 100px;
+gap: 70px;
+margin:70px 100px 84px 120px;
+display: flex;
+}
+.mm1{
+    width: 360px;
+    height: 286px;
+    gap: 60px;
+    margin-right: 190px;
+    margin-bottom: 209px;
+}
+.mm2{
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 42px;
+    text-align: left;
+    color: #2D2D2D;
+    width: 360px;
+    height: 42px;
+}
+.mm3{
+    margin-bottom: 60px;
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 27px;
+    text-align: left;
+    color: #2D2D2D;
+    width: 360px;
+    height: 108px;
+}
+/* .mm4{
+    width: 232px;
+height: 36px;
+gap: 0px;
+opacity: 0px;
+
+    gap: 5px;
+    display: flex;
+    margin: auto;
+} */
+.mm4{
+    width: 232px;
+    height: 36px;
+    margin-top: 60px;
+    margin-right: 128px;
+}
+.aaa{
+  
+    width: 36px;
+    height: 36px;
+    top: 130px;
+   
+}
+.tt{
+    width: 530px;
+    height: 409px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.tt1{
+    width: 530px;
+    height: 69px;
+    padding: 21px 30px 21px 30px;
+    gap: 10px;
+    background: #F3F3F3;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.tt2{
+    width: 530px;
+    height: 69px;
+    padding: 21px 30px 21px 30px;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #2D2D2D;
+    
+}
+textarea{
+    width: 530px;
+    height: 231px;
+    padding: 21px 30px 21px 30px;
+    gap: 10px;
+    background: #F3F3F3;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #2D2D2D;
+    resize: none;
+    
+}
+.btt{
+    width: 199px;
+    height: 66px;
+    padding: 18px 64px 18px 64px;
+    gap: 10px;
+    background: #2D2D2D;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;  
+    
+}
+@media screen and (max-width: 767px){
+    .j{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .j1{
+        display: none;
+    }
+    .icon{
+        display: block; 
+    } 
+    .mm{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        width: 315px;
+        height: 295px;
+        gap: 15px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        
+    }
+    .mm1{
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .tt{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin:auto;
+    }
+    .mm3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin:auto;
+        /* width: 100%; */
+    }
+ 
+}
